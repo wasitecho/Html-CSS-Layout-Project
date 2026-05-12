@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Pikachu UI"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pikachu UI"
+	}
+}

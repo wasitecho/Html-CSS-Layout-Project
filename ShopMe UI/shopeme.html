@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loomé Fashion UI</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Remix Icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <div class="frame">
+ 
+  <!-- NAV -->
+  <nav>
+    <div class="logo">loomé.</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="active">Shop</a></li>
+      <li><a href="#">Collection</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="nav-icons">
+      <div class="cart-wrap">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        <div class="cart-badge">1</div>
+      </div>
+      <svg viewBox="0 0 24 24" stroke-width="1.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </div>
+  </nav>
+ 
+  <!-- MAIN GRID -->
+  <div class="content">
+ 
+    <!-- LEFT -->
+    <div class="left-panel">
+      <div class="new-collection">
+        <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+        <span>New Collection</span>
+      </div>
+ 
+      <h1 class="product-title">a cotton<br>weave</h1>
+ 
+      <div class="divider"></div>
+ 
+      <p class="product-desc">Crafted from 100% organic cotton with a soft, breathable feel. Perfect for all seasons and everyday elegance.</p>
+ 
+      <div class="colors-row">
+        <span class="colors-label">colors</span>
+        <div class="color-dot color-olive active"></div>
+        <div class="color-dot color-cream"></div>
+        <div class="color-dot color-rose"></div>
+      </div>
+ 
+      <div class="details-section">
+        <div class="details-header">
+          <span>Details</span>
+          <div class="line"></div>
+        </div>
+        <p class="details-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusamus, sapiente. Ipsum maiores nemo, quidem veniam et atque suscipit, saepé doloribus ab molestiae deserunt? Totam natus eligendi neque.</p>
+      </div>
+ 
+      <div class="features-row">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="feature-label">Organic<br>Cotton</div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12s1.5 2 4 2 4-2 4-2"/></svg>
+          </div>
+          <div class="feature-label">Soft &<br>Lightweight</div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="feature-label">Handmade<br>Weave</div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- CENTER -->
+    <div class="center-panel">
+      <div class="product-card">
+        <div class="price-tag">$488</div>
+        <div class="rating-tag">
+          <span>Rating</span>
+          <div class="stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+        </div>
+ 
+        <!-- Using a fashion-related placeholder image -->
+        <img
+          class="product-img"
+          src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700&q=80&auto=format&fit=crop"
+          alt="organic wool blend coat"
+          onerror="this.style.background='#d6ccc0';this.removeAttribute('src')"
+        />
+ 
+        <div class="vertical-label">organic wool blend coat</div>
+ 
+        <div class="add-to-bag">
+          <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span>Add to bag</span>
+        </div>
+      </div>
+ 
+      <!-- TRUST ROW -->
+      <div class="trust-row">
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="trust-text">
+            <div class="t1">Secure</div>
+            <div class="t2">Payment</div>
+          </div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <div class="trust-text">
+            <div class="t1">Free Shipping</div>
+            <div class="t2">Over $100</div>
+          </div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-icon">
+            <svg viewBox="0 0 24 24" stroke-width="1.5"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/></svg>
+          </div>
+          <div class="trust-text">
+            <div class="t1">Easy Returns</div>
+            <div class="t2">30 Days</div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- RIGHT THUMBNAILS -->
+    <div class="right-panel">
+      <div class="thumb active">
+        <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=200&q=70&auto=format&fit=crop" alt="thumb 1"
+          onerror="this.parentElement.style.background='#d6ccc0';this.remove()"/>
+      </div>
+      <div class="thumb">
+        <img src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=200&q=70&auto=format&fit=crop" alt="thumb 2"
+          onerror="this.parentElement.style.background='#c8bfb0';this.remove()"/>
+      </div>
+      <div class="thumb">
+        <img src="https://images.unsplash.com/photo-1583846717393-dc2412c95ed7?w=200&q=70&auto=format&fit=crop" alt="thumb 3"
+          onerror="this.parentElement.style.background='#b8b0a4';this.remove()"/>
+      </div>
+      <div class="thumb">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=70&auto=format&fit=crop" alt="thumb 4"
+          onerror="this.parentElement.style.background='#a8a09a';this.remove()"/>
+      </div>
+    </div>
+ 
+  </div>
+</div>
+
+</body>
+</html>
